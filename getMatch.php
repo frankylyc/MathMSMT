@@ -5,7 +5,7 @@
 		die('parameter not valid');
 	}
 	$userName = "root";
-	$pwd = "Voltree2015";
+	$pwd = "YourPwd";
 	$dbName = "test";
 	$conn = mysql_connect("localhost:3306", $userName, $pwd);
 	if (!$conn)
